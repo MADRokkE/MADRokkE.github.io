@@ -1,0 +1,218 @@
+  * {
+    margin: 0;
+    padding: 0;
+}
+  img {   /*запретить картинке быть больше блока */
+    max-width: 100%;
+    max-height: 100%;
+}
+  iframe{   /*запретить музыке быть больше блока */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  body {  /* Задаю изначальные параметры для всех элементов сайта и фона */
+    background-image: url("images/baackground.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #05040b;
+    margin: 0;
+}
+
+  p {  /* Задаю параметры для всех элементов текста */
+    font-family: "Segoe Print";
+}
+
+  a {   /* Задаю параметры для ссылок */
+    font-family: "Segoe Print";
+}
+
+#header {
+}
+
+#content {   /* перемещаю блок и задаю изначальные параметры для Плейлиста*/
+  background-color: #05040b;
+  height:80%;
+  width: 50%;
+  text-align: center;
+  position: absolute; left: 32%; top: 5%; right: 18%; bottom: 15%;
+  border-style: groove;
+  border-color: #2878d9;
+  border-width:0.85vmin;
+}
+
+    #sPL {  /* размещаю pic. Демо Плейлист */
+      width: auto;
+      height: 11%;
+      position: relative;
+      text-align: center;
+    }
+
+    .music {  /* Задаю общие параметры для музыки */
+      border: 0.5vh solid #05040b;
+      border-radius: 10px;
+
+    }
+        .one {   /* Перемещаю первую песню */
+          height: 22%;
+          width: 29%;
+          position: relative;
+        }
+
+        .two {   /* Перемещаю вторую песню */
+          height: 22%;
+          width: 29%;
+          position: relative;
+        }
+
+        .three {   /* Перемещаю третью песню */
+          height: 22%;
+          width: 29%;
+          position: relative;
+        }
+
+        .four {  /* Перемещаю четвертую песню */
+          height: 22%;
+          width: 29%;
+          position: relative;
+        }
+
+        .five {  /* Перемещаю пятую песню */
+          height: 22%;
+          width: 29%;
+          position: relative;
+        }
+
+        .six{  /* Перемещаю шестую песню */
+          height: 22%;
+          width: 29%;
+          position: relative;
+        }
+
+        .seven{  /* Перемещаю седьмую песню */
+          height: 22%;
+          width: 29%;
+          position: relative;
+        }
+
+        .eight{   /* Перемещаю восьмую песню */
+          height: 22%;
+          width: 29%;
+          position: relative;
+        }
+
+        .nine{   /* Перемещаю девятую песню */
+          height: 22%;
+          width: 29%;
+          position: relative;
+        }
+
+        .ten{   /* Перемещаю десятую песню */
+          height: 22%;
+          width: 29%;
+          position: relative;
+        }
+
+        .eleven{   /* Перемещаю одиннадцатую песню */
+          height: 22%;
+          width: 29%;
+          position: relative;
+        }
+
+        .twelve{   /* Перемещаю двенадцатую песню */
+          height: 22%;
+          width: 29%;
+          position: relative;
+        }
+
+#Block_1{  /* перемещаю блок Header */
+  height:50%;
+  width:27%;
+  position: absolute;
+  word-wrap: break-word;
+  font-size: 0.84vw;
+}
+
+    #lofi_logo {  /* перемещаю блок lofi */
+      position: relative;
+      width: 50%;
+      height: 20%;
+    }
+
+    #playlist {  /* перемещаю блок playlist */
+      position: relative;
+      width: 80%;
+      height: 100%;
+    }
+
+    #playlist:hover{  /* эффект при наведееии на иконку playlist */
+      transform:  scale(1.1) ;
+    }
+
+    #history {   /* перемещаю блок history */
+      position: relative;
+      width: 80%;
+      height: 100%;
+    }
+
+    #history:hover{  /* эффект при наведееии на иконку history */
+      transform:  scale(1.1) ;
+    }
+
+    #authors {  /* перемещаю блок authors */
+      position: relative;
+      width: 80%;
+      height: 100%;
+    }
+
+    #authors:hover{  /* эффект при наведееии на иконку authors */
+      transform:  scale(1.1) ;
+    }
+
+#Block_2{   /* перемещаю блок sc и yt */
+  height:50%;
+  width:5%;
+  position: absolute;
+  word-wrap: break-word;
+  right: 3%;
+  font-size: 0.84vw;
+}
+
+#Block_3{
+  height:87%;
+  width:100%;
+  position: absolute;
+}
+
+#footer {
+
+}
+
+  .sc{   /* перемещаю иконку soundcloud */
+    width: 100%;
+    height: 30%;
+    position: relative;
+    /*border: 4px outset;*/
+    margin-top: 100%;
+}
+
+  .sc:hover{   /* эффект при наведееии на иконку soundcloud */
+    transform:  scale(1.1) ;
+  }
+
+  .yt{  /* перемещаю иконку youtube */
+    width: 100%;
+    height: 30%;
+    position: relative;
+    margin-top: 30%;
+  }
+
+  .yt:hover{  /* эффект при наведееии на иконку youtube */
+    transform:  scale(1.1) ;
+  }
+
+@font-face {  /* Подключил шрифт и установил стандартные значения */
+  font-family: "Segoe Print";
+  src: url("fonts/15695.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

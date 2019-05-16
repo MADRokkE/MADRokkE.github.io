@@ -1,0 +1,228 @@
+  * {
+    margin: 0;
+    padding: 0;
+}
+
+  img {  /*запретить картинке быть больше блока */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+  iframe{  /*запретить музыке быть больше блока */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+  body {   /* Задаю изначальные параметры для вех элементов сайта и фона */
+    background-image: url("images/baackground.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #05040b;
+    margin: 0;
+}
+
+p {   /* Задаю параметры для всех элементов текста */
+  font-family: "Segoe Print";
+  color: #2878d9;
+  text-indent: 3%;
+}
+
+
+  a {  /* Задаю параметры для ссылок */
+    font-family: "Segoe Print";
+}
+
+#header {
+}
+
+#Block_1{  /* перемещаю блок Header */
+  height:50%;
+  width:27%;
+  position: absolute;
+  word-wrap: break-word;
+  font-size: 0.84vw;
+}
+
+    #lofi_logo {  /* перемещаю блок lofi */
+      position: relative;
+      width: 50%;
+      height: 20%;
+    }
+
+    #playlist {  /* перемещаю блок playlist */
+      position: relative;
+      width: 80%;
+      height: 100%;
+    }
+
+    #playlist:hover{  /* эффект при наведееии на иконку playlist */
+      transform:  scale(1.1) ;
+    }
+
+    #history {  /* перемещаю блок history */
+      position: relative;
+      width: 80%;
+      height: 100%;
+    }
+
+    #history:hover{  /* эффект при наведееии на иконку history */
+      transform:  scale(1.1) ;
+    }
+
+    #authors {  /* перемещаю блок authors */
+      position: relative;
+      width: 80%;
+      height: 100%;
+    }
+
+    #authors:hover{  /* эффект при наведееии на иконку authors */
+      transform:  scale(1.1) ;
+    }
+
+#Block_2{  /* перемещаю блок sc и yt */
+  height:50%;
+  width:5%;
+  position: absolute;
+  word-wrap: break-word;
+  right: 3%;
+  font-size: 0.84vw;
+}
+
+    #content {   /* перемещаю блок и задаю изначальные параметры для Плейлиста*/
+      background-color: #05040b;
+      height:80%;
+      width: 50%;
+      position: absolute; left: 32%; top: 5%; right: 18%; bottom: 15%;
+      border-style: groove;
+      border-color: #2878d9;
+      border-width:1%;
+        font-size: 0.84vw;
+    }
+
+      #autor_1{
+        height:30%;
+        width:99.5%;
+        position: absolute;
+        word-wrap: break-word;
+          border-style: groove;
+          border-color: #2878d9;
+          border-width:1%;
+      }
+
+            #Face_RokkE{
+              position: absolute;
+              height:100%;
+              width:100%;
+            }
+
+            #Face_illumi{
+              position: absolute;
+              height:100%;
+              width:100%;
+            }
+
+            #Face_Siro{
+              position: absolute;
+              height:100%;
+              width:100%;
+            }
+
+
+      #autor_2{
+        height:30%;
+        width:99.5%;
+        position: absolute;
+        top: 34.6%;
+        word-wrap: break-word;
+          border-style: groove;
+          border-color: #2878d9;
+          border-width:1%;
+      }
+
+      #autor_3{
+        height:30%;
+        width:99.5%;
+        position: absolute;
+        bottom:0%;
+        word-wrap: break-word;
+          border-style: groove;
+          border-color: #2878d9;
+          border-width:1%;
+      }
+
+#footer {
+
+}
+
+  .face_icon{
+    height: 98%;
+    width: 24.5%;
+    position:absolute;
+      border-style: solid;
+      border-color: #2878d9;
+      border-width:1%;
+      border-radius: 50%;
+  }
+
+  .text_icon{
+    height:100%;
+    width: 70%;
+    position: relative;
+    left: 30%;
+}
+
+  .hp{
+  height: 100%;
+}
+
+  .sc{  /* перемещаю иконку soundcloud */
+    width: 100%;
+    height: 30%;
+    position: relative;
+    /*border: 4px outset;*/
+    margin-top: 100%;
+}
+
+    .sc:hover{  /* эффект при наведееии на иконку soundcloud */
+      transform:  scale(1.1) ;
+  }
+
+  .yt{  /* перемещаю иконку youtube */
+    width: 100%;
+    height: 30%;
+    position: relative;
+    margin-top: 30%;
+}
+
+    .yt:hover{  /* эффект при наведееии на иконку youtube */
+      transform:  scale(1.1) ;
+  }
+
+  .sm{  /* перемещаю иконку steam */
+    width: 17%;
+    height: 50%;
+    left: 5%;
+    position: relative;
+}
+
+      .sm:hover{  /* эффект при наведееии на иконку youtube */
+        transform:  scale(1.1) ;
+    }
+
+    .tr{  /* перемещаю иконку steam */
+      width: 17%;
+      height: 50%;
+      position: relative;
+      left: 10%;
+  }
+
+        .tr:hover{  /* эффект при наведееии на иконку youtube */
+          transform:  scale(1.1) ;
+      }
+
+@font-face {  /* Подключил шрифт и установил стандартные значения */
+  font-family: "Segoe Print";
+  src: url("fonts/15695.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
